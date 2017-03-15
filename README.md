@@ -229,6 +229,11 @@ Show what's in stash :
 $ git stash list
 ```
 
+Bring back latest stash : 
+```sh
+$ git stash pop
+```
+
 Remove all stash : 
 ```sh
 $ git stash clear
@@ -251,7 +256,10 @@ $ which git
 ```
 Remove untracked files from Working Tier : 
 ```sh
-$ git clean -f
+# Files
+$ git clean -f 
+# Directories
+$ git clean -d  
 ```
 Remove all the file with the same format : 
  ```sh
