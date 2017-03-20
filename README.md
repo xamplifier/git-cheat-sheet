@@ -244,6 +244,20 @@ $ git stash clear
 $ git command --help
 ```
 
+
+### Git Hunks
+
+Structure and Organise Commits before push : 
+```sh
+$ git add -p [FileName]
+```
+
+Stage this hunk [y,n,q,a,d,/,e,?]?
+y=yes
+n=no
+q=quit
+
+
 ### General Info
 
 View the Git Version : 
