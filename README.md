@@ -1,4 +1,4 @@
-# xAmplifier - Github Command List
+# xAmplifier - Github Command Updated List
 ### How to Create a Repository [ Init , Clone ]
 
 Create new local repository :
@@ -189,7 +189,11 @@ Change all three Tiers :
 ```sh
 $ git reset --hard
 ```
-
+Change Repo to a specific commit :
+```sh
+$ git reset --hard [commitNo]
+```
+>>*If you reset or checkout a file don't push to a different branch.* Use ``` $ git push origin HEAD``` 
 ### How to Synchronize [ Fetch , Pull , Push ]
 
 >Fetch before you work
