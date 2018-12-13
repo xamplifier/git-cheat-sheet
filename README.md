@@ -167,6 +167,12 @@ Revert a commit :
 ```sh
 $ git revert <commit>
 ```
+
+Revert last commit locally : 
+```sh
+$ git revert -m 1 HEAD
+```
+
 ### How to Unstage Files [ Checkout , Reset ]
 
 Change a file back to history how they were at the last commit : 
